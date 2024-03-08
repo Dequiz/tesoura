@@ -18,24 +18,24 @@ function jogar() {
 
   if (resultado === 1) {
     document.getElementById("jogo").innerHTML =
-      "<img src='img/papel-direita.png' class='jogadas'>";
+      "<img src='papel-direita.png' class='jogadas'>";
   } else if (resultado === 2) {
     document.getElementById("jogo").innerHTML =
-      "<img src='img/pedra-direita.png' class='jogadas'>";
+      "<img src='pedra-direita.png' class='jogadas'>";
   } else if (resultado === 3) {
     document.getElementById("jogo").innerHTML =
-      "<img src='img/tesoura-direita.png' class='jogadas'>";
+      "<img src='tesoura-direita.png' class='jogadas'>";
   }
 }
 function tesoura() {
   document.getElementById("jogo2").innerHTML =
-    "<img src='img/tesoura-esquerda.png' class='left'>";
+    "<img src='tesoura-esquerda.png' class='left'>";
 }
 function pedra() {
   document.getElementById("jogo2").innerHTML =
-    "<img src='img/pedra-esquerda.png' class='left'>";
+    "<img src='pedra-esquerda.png' class='left'>";
 }
 function papel() {
   document.getElementById("jogo2").innerHTML =
-    "<img src='img/papel-esquerda.png' class='left'>";
+    "<img src='papel-esquerda.png' class='left'>";
 }
